@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CryptoFuel dApp</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./styles/style.css" />
+    </head>
+    <body>
+        <main class="card">
+            <div class="header">
+                <h1 class="title">CryptoFuel ⛽️</h1>
+                <button id="connectButton" class="btn btn-secondary">Connect Wallet</button>
+            </div>
+
+            <div class="funding-section">
+                <label for="ethAmount">Amount (ETH)</label>
+                <div class="input-group">
+                    <input id="ethAmount" type="text" placeholder="0.1" />
+                    <button type="button" id="fundButton" class="btn btn-primary">Fund</button>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button id="balanceButton" class="btn">Get Balance</button>
+                <button id="withdrawButton" class="btn">Withdraw</button>
+            </div>
+
+            <div id="status" class="status-message">
+                </div>
+        </main>
+
+        <script src="./js/index.js" type="module"></script>
+    </body>
+</html>
