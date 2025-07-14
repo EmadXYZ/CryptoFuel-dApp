@@ -26,6 +26,7 @@ This project allows users to fund content creators or projects using ETH. The co
 
 The project's file structure is designed to separate contract logic from the user interface.
 
+```
 CryptoFuel-dApp/
 ├── contracts/
 │   ├── FundMe.sol                # Main smart contract
