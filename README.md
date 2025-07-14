@@ -41,7 +41,7 @@ CryptoFuel-dApp/
 │   └── constants.js              # Contract address and ABI
 └── styles/
 └── style.css                 # UI styles
-
+```
 ---
 ## 🛡️ Security Considerations
 
